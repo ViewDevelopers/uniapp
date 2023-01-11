@@ -1,0 +1,1154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="WB DataDic" />
+    <meta name="description" content="unidaap Data Dictionary." />
+    <title>unidaap Data Dictionary</title>
+    <style type="text/css">
+    table{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    abbr{
+        cursor: help;
+    }
+    table, td, th{
+        border-style: solid;
+        border-width: 1px;
+    }
+    table caption{
+        font-size: 120%;
+        font-weight: bold;
+    }
+    caption{
+        color: black;
+    }
+    td, th{
+        border-color: silver;
+    }
+    tr:hover{
+        color: #333;
+        background-color: #F2F2F2;
+    }
+    th{
+        background-color: silver;
+    }
+    td{
+        color: gray;
+    }
+    ul{
+        font-style: italic;
+    }
+    #title-sect{
+        color: gray;
+        text-align: right;
+    }
+    .proj-desc{
+        text-align: right;
+    }
+    </style>
+</head>
+<body>
+<div id="title-sect">
+<h1>unidaap<br> Data Dictionay</h1>
+<p>
+<em>2022-12-29</em>
+</p>
+<p class="proj-desc">
+<em>Base de datos Para unidades residenciales</em>
+</p>
+</div>
+<h2>Alphabetic Index</h2>
+<ul>
+<li><a href='#Candidato'>Candidato</a></li>
+<li><a href='#Cargos'>Cargos</a></li>
+<li><a href='#Periodo'>Periodo</a></li>
+<li><a href='#SolicitudesZona'>SolicitudesZona</a></li>
+<li><a href='#TipoVivienda'>TipoVivienda</a></li>
+<li><a href='#Votaciones'>Votaciones</a></li>
+<li><a href='#ZonasComunes'>ZonasComunes</a></li>
+<li><a href='#datosbasicos'>datosbasicos</a></li>
+<li><a href='#detahabitante'>detahabitante</a></li>
+<li><a href='#nomenclatura'>nomenclatura</a></li>
+<li><a href='#tipoidentificacion'>tipoidentificacion</a></li>
+<li><a href='#tipouser'>tipouser</a></li>
+<li><a href='#unidadeshabitacionales'>unidadeshabitacionales</a></li>
+<li><a href='#user'>user</a></li>
+</ul>
+<table id='Candidato'>
+<caption>Candidato</caption>
+<tr><td colspan='11'></td></tr>
+<tr>
+    <th>Column name</th>
+    <th>DataType</th>
+    <th><abbr title='Primary Key'>PK</abbr></th>
+    <th><abbr title='Not Null'>NN</abbr></th>
+    <th><abbr title='Unique'>UQ</abbr></th>
+    <th><abbr title='Binary'>BIN</abbr></th>
+    <th><abbr title='Unsigned'>UN</abbr></th>
+    <th><abbr title='Zero Fill'>ZF</abbr></th>
+    <th><abbr title='Auto Increment'>AI</abbr></th>
+    <th>Default</th>
+    <th>Comment</th>
+</tr>
+<tr>
+    <td>idCandidato</td>
+    <td>INT</td>
+    <td>&#10004;</td>
+    <td>&#10004;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&#10004;</td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td>idCargos</td>
+    <td>INT</td>
+    <td>&#10004;</td>
+    <td>&#10004;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td class='attr'>&nbsp;</td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td>idPeriodo</td>
+    <td>INT</td>
+    <td>&#10004;</td>
+    <td>&#10004;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td class='attr'>&nbsp;</td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td>Biografia</td>
+    <td>VARCHAR(45)</td>
+    <td>&nbsp;</td>
+    <td>&#10004;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td class='attr'>&nbsp;</td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td>totalVotos</td>
+    <td>VARCHAR(45)</td>
+    <td>&nbsp;</td>
+    <td>&#10004;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td class='attr'>&nbsp;</td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td>iddatosbasicos</td>
+    <td>INT</td>
+    <td>&#10004;</td>
+    <td>&#10004;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td class='attr'>&nbsp;</td>
+    <td></td>
+    <td></td>
+</tr>
+<table id='Cargos'>
+<caption>Cargos</caption>
+<tr><td colspan='11'></td></tr>
+<tr>
+    <th>Column name</th>
+    <th>DataType</th>
+    <th><abbr title='Primary Key'>PK</abbr></th>
+    <th><abbr title='Not Null'>NN</abbr></th>
+    <th><abbr title='Unique'>UQ</abbr></th>
+    <th><abbr title='Binary'>BIN</abbr></th>
+    <th><abbr title='Unsigned'>UN</abbr></th>
+    <th><abbr title='Zero Fill'>ZF</abbr></th>
+    <th><abbr title='Auto Increment'>AI</abbr></th>
+    <th>Default</th>
+    <th>Comment</th>
+</tr>
+<tr>
+    <td>idCargos</td>
+    <td>INT</td>
+    <td>&#10004;</td>
+    <td>&#10004;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&#10004;</td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td>nombreCargo</td>
+    <td>VARCHAR(45)</td>
+    <td>&nbsp;</td>
+    <td>&#10004;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td class='attr'>&nbsp;</td>
+    <td></td>
+    <td></td>
+</tr>
+<table id='Periodo'>
+<caption>Periodo</caption>
+<tr><td colspan='11'></td></tr>
+<tr>
+    <th>Column name</th>
+    <th>DataType</th>
+    <th><abbr title='Primary Key'>PK</abbr></th>
+    <th><abbr title='Not Null'>NN</abbr></th>
+    <th><abbr title='Unique'>UQ</abbr></th>
+    <th><abbr title='Binary'>BIN</abbr></th>
+    <th><abbr title='Unsigned'>UN</abbr></th>
+    <th><abbr title='Zero Fill'>ZF</abbr></th>
+    <th><abbr title='Auto Increment'>AI</abbr></th>
+    <th>Default</th>
+    <th>Comment</th>
+</tr>
+<tr>
+    <td>idPeriodo</td>
+    <td>INT</td>
+    <td>&#10004;</td>
+    <td>&#10004;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&#10004;</td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td>nombrePeriodo</td>
+    <td>YEAR</td>
+    <td>&nbsp;</td>
+    <td>&#10004;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td class='attr'>&nbsp;</td>
+    <td></td>
+    <td></td>
+</tr>
+<table id='SolicitudesZona'>
+<caption>SolicitudesZona</caption>
+<tr><td colspan='11'>Tabla para el registro de solicitudes de zona común</td></tr>
+<tr>
+    <th>Column name</th>
+    <th>DataType</th>
+    <th><abbr title='Primary Key'>PK</abbr></th>
+    <th><abbr title='Not Null'>NN</abbr></th>
+    <th><abbr title='Unique'>UQ</abbr></th>
+    <th><abbr title='Binary'>BIN</abbr></th>
+    <th><abbr title='Unsigned'>UN</abbr></th>
+    <th><abbr title='Zero Fill'>ZF</abbr></th>
+    <th><abbr title='Auto Increment'>AI</abbr></th>
+    <th>Default</th>
+    <th>Comment</th>
+</tr>
+<tr>
+    <td>idSolicitudesZona</td>
+    <td>INT</td>
+    <td>&#10004;</td>
+    <td>&#10004;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&#10004;</td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td>idZonasComunes</td>
+    <td>INT</td>
+    <td>&#10004;</td>
+    <td>&#10004;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td class='attr'>&nbsp;</td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td>iddatosbasicos</td>
+    <td>INT</td>
+    <td>&#10004;</td>
+    <td>&#10004;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td class='attr'>&nbsp;</td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td>fecha</td>
+    <td>DATE</td>
+    <td>&nbsp;</td>
+    <td>&#10004;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td class='attr'>&nbsp;</td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td>horainicio</td>
+    <td>TIME</td>
+    <td>&nbsp;</td>
+    <td>&#10004;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td class='attr'>&nbsp;</td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td>horafin</td>
+    <td>TIME</td>
+    <td>&nbsp;</td>
+    <td>&#10004;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td class='attr'>&nbsp;</td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td>EstadoSolicitud</td>
+    <td>TINYINT</td>
+    <td>&nbsp;</td>
+    <td>&#10004;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td class='attr'>&nbsp;</td>
+    <td></td>
+    <td></td>
+</tr>
+<table id='TipoVivienda'>
+<caption>TipoVivienda</caption>
+<tr><td colspan='11'>Tabla para clasificar los tipos de viviendas en los que habitan:
+
+- Casas 
+- Apartamentos
+- Mixto (casas y aptos)</td></tr>
+<tr>
+    <th>Column name</th>
+    <th>DataType</th>
+    <th><abbr title='Primary Key'>PK</abbr></th>
+    <th><abbr title='Not Null'>NN</abbr></th>
+    <th><abbr title='Unique'>UQ</abbr></th>
+    <th><abbr title='Binary'>BIN</abbr></th>
+    <th><abbr title='Unsigned'>UN</abbr></th>
+    <th><abbr title='Zero Fill'>ZF</abbr></th>
+    <th><abbr title='Auto Increment'>AI</abbr></th>
+    <th>Default</th>
+    <th>Comment</th>
+</tr>
+<tr>
+    <td>idTipoVivienda</td>
+    <td>INT</td>
+    <td>&#10004;</td>
+    <td>&#10004;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&#10004;</td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td>nombretiporesidencia</td>
+    <td>VARCHAR(45)</td>
+    <td>&nbsp;</td>
+    <td>&#10004;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td class='attr'>&nbsp;</td>
+    <td></td>
+    <td></td>
+</tr>
+<table id='Votaciones'>
+<caption>Votaciones</caption>
+<tr><td colspan='11'></td></tr>
+<tr>
+    <th>Column name</th>
+    <th>DataType</th>
+    <th><abbr title='Primary Key'>PK</abbr></th>
+    <th><abbr title='Not Null'>NN</abbr></th>
+    <th><abbr title='Unique'>UQ</abbr></th>
+    <th><abbr title='Binary'>BIN</abbr></th>
+    <th><abbr title='Unsigned'>UN</abbr></th>
+    <th><abbr title='Zero Fill'>ZF</abbr></th>
+    <th><abbr title='Auto Increment'>AI</abbr></th>
+    <th>Default</th>
+    <th>Comment</th>
+</tr>
+<tr>
+    <td>idVotaciones</td>
+    <td>INT</td>
+    <td>&#10004;</td>
+    <td>&#10004;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&#10004;</td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td>idCargos</td>
+    <td>INT</td>
+    <td>&#10004;</td>
+    <td>&#10004;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td class='attr'>&nbsp;</td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td>iddatosbasicos</td>
+    <td>INT</td>
+    <td>&#10004;</td>
+    <td>&#10004;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td class='attr'>&nbsp;</td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td>estado</td>
+    <td>TINYINT</td>
+    <td>&nbsp;</td>
+    <td>&#10004;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td class='attr'>&nbsp;</td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td>create_at</td>
+    <td>DATETIME</td>
+    <td>&nbsp;</td>
+    <td>&#10004;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td class='attr'>&nbsp;</td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td>modify_at</td>
+    <td>DATETIME</td>
+    <td>&nbsp;</td>
+    <td>&#10004;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td class='attr'>&nbsp;</td>
+    <td></td>
+    <td></td>
+</tr>
+<table id='ZonasComunes'>
+<caption>ZonasComunes</caption>
+<tr><td colspan='11'></td></tr>
+<tr>
+    <th>Column name</th>
+    <th>DataType</th>
+    <th><abbr title='Primary Key'>PK</abbr></th>
+    <th><abbr title='Not Null'>NN</abbr></th>
+    <th><abbr title='Unique'>UQ</abbr></th>
+    <th><abbr title='Binary'>BIN</abbr></th>
+    <th><abbr title='Unsigned'>UN</abbr></th>
+    <th><abbr title='Zero Fill'>ZF</abbr></th>
+    <th><abbr title='Auto Increment'>AI</abbr></th>
+    <th>Default</th>
+    <th>Comment</th>
+</tr>
+<tr>
+    <td>idZonasComunes</td>
+    <td>INT</td>
+    <td>&#10004;</td>
+    <td>&#10004;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&#10004;</td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td>iduser</td>
+    <td>INT</td>
+    <td>&#10004;</td>
+    <td>&#10004;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td class='attr'>&nbsp;</td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td>nombrezona</td>
+    <td>VARCHAR(45)</td>
+    <td>&nbsp;</td>
+    <td>&#10004;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td class='attr'>&nbsp;</td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td>cantidad</td>
+    <td>INT</td>
+    <td>&nbsp;</td>
+    <td>&#10004;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td class='attr'>&nbsp;</td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td>capacidad</td>
+    <td>INT</td>
+    <td>&nbsp;</td>
+    <td>&#10004;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td class='attr'>&nbsp;</td>
+    <td>0</td>
+    <td></td>
+</tr>
+<table id='datosbasicos'>
+<caption>datosbasicos</caption>
+<tr><td colspan='11'>Tabla para el registro de las personas propietarias y/o habitantes del la unidad</td></tr>
+<tr>
+    <th>Column name</th>
+    <th>DataType</th>
+    <th><abbr title='Primary Key'>PK</abbr></th>
+    <th><abbr title='Not Null'>NN</abbr></th>
+    <th><abbr title='Unique'>UQ</abbr></th>
+    <th><abbr title='Binary'>BIN</abbr></th>
+    <th><abbr title='Unsigned'>UN</abbr></th>
+    <th><abbr title='Zero Fill'>ZF</abbr></th>
+    <th><abbr title='Auto Increment'>AI</abbr></th>
+    <th>Default</th>
+    <th>Comment</th>
+</tr>
+<tr>
+    <td>iddatosbasicos</td>
+    <td>INT</td>
+    <td>&#10004;</td>
+    <td>&#10004;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&#10004;</td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td>iduser</td>
+    <td>INT</td>
+    <td>&#10004;</td>
+    <td>&#10004;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td class='attr'>&nbsp;</td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td>idtipouser</td>
+    <td>INT</td>
+    <td>&#10004;</td>
+    <td>&#10004;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td class='attr'>&nbsp;</td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td>idtipoidentificacion</td>
+    <td>INT</td>
+    <td>&#10004;</td>
+    <td>&#10004;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td class='attr'>&nbsp;</td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td>numeidentifica</td>
+    <td>VARCHAR(45)</td>
+    <td>&nbsp;</td>
+    <td>&#10004;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td class='attr'>&nbsp;</td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td>nombrecompleto</td>
+    <td>VARCHAR(255)</td>
+    <td>&nbsp;</td>
+    <td>&#10004;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td class='attr'>&nbsp;</td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td>telefono</td>
+    <td>VARCHAR(45)</td>
+    <td>&nbsp;</td>
+    <td>&#10004;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td class='attr'>&nbsp;</td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td>correoelectronico</td>
+    <td>VARCHAR(255)</td>
+    <td>&nbsp;</td>
+    <td>&#10004;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td class='attr'>&nbsp;</td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td>create_at</td>
+    <td>DATETIME</td>
+    <td>&nbsp;</td>
+    <td>&#10004;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td class='attr'>&nbsp;</td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td>modify_at</td>
+    <td>DATETIME</td>
+    <td>&nbsp;</td>
+    <td>&#10004;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td class='attr'>&nbsp;</td>
+    <td></td>
+    <td></td>
+</tr>
+<table id='detahabitante'>
+<caption>detahabitante</caption>
+<tr><td colspan='11'>Tabla que datalla la unidad habitacional donde reside la persona propietaria/residente arrendada</td></tr>
+<tr>
+    <th>Column name</th>
+    <th>DataType</th>
+    <th><abbr title='Primary Key'>PK</abbr></th>
+    <th><abbr title='Not Null'>NN</abbr></th>
+    <th><abbr title='Unique'>UQ</abbr></th>
+    <th><abbr title='Binary'>BIN</abbr></th>
+    <th><abbr title='Unsigned'>UN</abbr></th>
+    <th><abbr title='Zero Fill'>ZF</abbr></th>
+    <th><abbr title='Auto Increment'>AI</abbr></th>
+    <th>Default</th>
+    <th>Comment</th>
+</tr>
+<tr>
+    <td>iddetahabitante</td>
+    <td>INT</td>
+    <td>&#10004;</td>
+    <td>&#10004;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&#10004;</td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td>idunidadeshabitacionales</td>
+    <td>INT</td>
+    <td>&#10004;</td>
+    <td>&#10004;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td class='attr'>&nbsp;</td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td>iddatosbasicos</td>
+    <td>INT</td>
+    <td>&#10004;</td>
+    <td>&#10004;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td class='attr'>&nbsp;</td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td>fechaingreso</td>
+    <td>DATETIME</td>
+    <td>&nbsp;</td>
+    <td>&#10004;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td class='attr'>&nbsp;</td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td>fecharetiro</td>
+    <td>DATETIME</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td class='attr'>&nbsp;</td>
+    <td></td>
+    <td></td>
+</tr>
+<table id='nomenclatura'>
+<caption>nomenclatura</caption>
+<tr><td colspan='11'>Tabla para clasificar como se identifica la unidad habitacional, ejemplo:
+- Torre
+- Manzana
+- Casa
+- Apartamento
+- Etc</td></tr>
+<tr>
+    <th>Column name</th>
+    <th>DataType</th>
+    <th><abbr title='Primary Key'>PK</abbr></th>
+    <th><abbr title='Not Null'>NN</abbr></th>
+    <th><abbr title='Unique'>UQ</abbr></th>
+    <th><abbr title='Binary'>BIN</abbr></th>
+    <th><abbr title='Unsigned'>UN</abbr></th>
+    <th><abbr title='Zero Fill'>ZF</abbr></th>
+    <th><abbr title='Auto Increment'>AI</abbr></th>
+    <th>Default</th>
+    <th>Comment</th>
+</tr>
+<tr>
+    <td>idnomenclatura</td>
+    <td>INT</td>
+    <td>&#10004;</td>
+    <td>&#10004;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&#10004;</td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td>nombrenomenclatura</td>
+    <td>VARCHAR(45)</td>
+    <td>&nbsp;</td>
+    <td>&#10004;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td class='attr'>&nbsp;</td>
+    <td></td>
+    <td></td>
+</tr>
+<table id='tipoidentificacion'>
+<caption>tipoidentificacion</caption>
+<tr><td colspan='11'>Tipos de identificación permitidos con los que se identifica el usuario:
+
+- Cédulas (ciudadanía, extrangería)
+- Pasaporte
+</td></tr>
+<tr>
+    <th>Column name</th>
+    <th>DataType</th>
+    <th><abbr title='Primary Key'>PK</abbr></th>
+    <th><abbr title='Not Null'>NN</abbr></th>
+    <th><abbr title='Unique'>UQ</abbr></th>
+    <th><abbr title='Binary'>BIN</abbr></th>
+    <th><abbr title='Unsigned'>UN</abbr></th>
+    <th><abbr title='Zero Fill'>ZF</abbr></th>
+    <th><abbr title='Auto Increment'>AI</abbr></th>
+    <th>Default</th>
+    <th>Comment</th>
+</tr>
+<tr>
+    <td>idtipoidentificacion</td>
+    <td>INT</td>
+    <td>&#10004;</td>
+    <td>&#10004;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&#10004;</td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td>nombretipoid</td>
+    <td>VARCHAR(45)</td>
+    <td>&nbsp;</td>
+    <td>&#10004;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td class='attr'>&nbsp;</td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td>create_at</td>
+    <td>DATETIME</td>
+    <td>&nbsp;</td>
+    <td>&#10004;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td class='attr'>&nbsp;</td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td>modify_at</td>
+    <td>DATETIME</td>
+    <td>&nbsp;</td>
+    <td>&#10004;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td class='attr'>&nbsp;</td>
+    <td></td>
+    <td></td>
+</tr>
+<table id='tipouser'>
+<caption>tipouser</caption>
+<tr><td colspan='11'>Tipos de usuarios:
+- Residente
+- Propietario
+- Proveedor
+- Empleado</td></tr>
+<tr>
+    <th>Column name</th>
+    <th>DataType</th>
+    <th><abbr title='Primary Key'>PK</abbr></th>
+    <th><abbr title='Not Null'>NN</abbr></th>
+    <th><abbr title='Unique'>UQ</abbr></th>
+    <th><abbr title='Binary'>BIN</abbr></th>
+    <th><abbr title='Unsigned'>UN</abbr></th>
+    <th><abbr title='Zero Fill'>ZF</abbr></th>
+    <th><abbr title='Auto Increment'>AI</abbr></th>
+    <th>Default</th>
+    <th>Comment</th>
+</tr>
+<tr>
+    <td>idtipouser</td>
+    <td>INT</td>
+    <td>&#10004;</td>
+    <td>&#10004;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&#10004;</td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td>nombretipouser</td>
+    <td>VARCHAR(45)</td>
+    <td>&nbsp;</td>
+    <td>&#10004;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td class='attr'>&nbsp;</td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td>create_at</td>
+    <td>DATETIME</td>
+    <td>&nbsp;</td>
+    <td>&#10004;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td class='attr'>&nbsp;</td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td>modify_at</td>
+    <td>DATETIME</td>
+    <td>&nbsp;</td>
+    <td>&#10004;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td class='attr'>&nbsp;</td>
+    <td></td>
+    <td></td>
+</tr>
+<table id='unidadeshabitacionales'>
+<caption>unidadeshabitacionales</caption>
+<tr><td colspan='11'>Describe las unidades habitacionales con las que cuenta la unidad, conjunto, torre, o condominio</td></tr>
+<tr>
+    <th>Column name</th>
+    <th>DataType</th>
+    <th><abbr title='Primary Key'>PK</abbr></th>
+    <th><abbr title='Not Null'>NN</abbr></th>
+    <th><abbr title='Unique'>UQ</abbr></th>
+    <th><abbr title='Binary'>BIN</abbr></th>
+    <th><abbr title='Unsigned'>UN</abbr></th>
+    <th><abbr title='Zero Fill'>ZF</abbr></th>
+    <th><abbr title='Auto Increment'>AI</abbr></th>
+    <th>Default</th>
+    <th>Comment</th>
+</tr>
+<tr>
+    <td>idunidadeshabitacionales</td>
+    <td>INT</td>
+    <td>&#10004;</td>
+    <td>&#10004;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&#10004;</td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td>idTipoVivienda</td>
+    <td>INT</td>
+    <td>&#10004;</td>
+    <td>&#10004;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td class='attr'>&nbsp;</td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td>iduser</td>
+    <td>INT</td>
+    <td>&#10004;</td>
+    <td>&#10004;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td class='attr'>&nbsp;</td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td>idnomenclatura</td>
+    <td>INT</td>
+    <td>&#10004;</td>
+    <td>&#10004;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td class='attr'>&nbsp;</td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td>complemento</td>
+    <td>VARCHAR(5)</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td class='attr'>&nbsp;</td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td>nomenclatura</td>
+    <td>VARCHAR(45)</td>
+    <td>&nbsp;</td>
+    <td>&#10004;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td class='attr'>&nbsp;</td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td>fechaentrega</td>
+    <td>DATE</td>
+    <td>&nbsp;</td>
+    <td>&#10004;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td class='attr'>&nbsp;</td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td>estado</td>
+    <td>VARCHAR(40)</td>
+    <td>&nbsp;</td>
+    <td>&#10004;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td class='attr'>&nbsp;</td>
+    <td></td>
+    <td></td>
+</tr>
+<table id='user'>
+<caption>user</caption>
+<tr><td colspan='11'>Del Módulo de Usuarios de Django</td></tr>
+<tr>
+    <th>Column name</th>
+    <th>DataType</th>
+    <th><abbr title='Primary Key'>PK</abbr></th>
+    <th><abbr title='Not Null'>NN</abbr></th>
+    <th><abbr title='Unique'>UQ</abbr></th>
+    <th><abbr title='Binary'>BIN</abbr></th>
+    <th><abbr title='Unsigned'>UN</abbr></th>
+    <th><abbr title='Zero Fill'>ZF</abbr></th>
+    <th><abbr title='Auto Increment'>AI</abbr></th>
+    <th>Default</th>
+    <th>Comment</th>
+</tr>
+<tr>
+    <td>iduser</td>
+    <td>INT</td>
+    <td>&#10004;</td>
+    <td>&#10004;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&#10004;</td>
+    <td></td>
+    <td></td>
+</tr>
+</table>
+</body>
+</html>
