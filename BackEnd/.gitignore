@@ -1,0 +1,13 @@
+*.env
+.env
+/.env
+/_pycache_
+*_pycache_
+_pycache_
+/__pycache__
+*__pycache__
+__pycache__
+**/migrations/**
+!**/migrations
+!**/migrations/__init__.py
+**/**/migrations
