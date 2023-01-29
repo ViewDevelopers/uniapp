@@ -1,0 +1,18 @@
+TIpografia 
+
+Poppins (Enlace de descarga: https://fonts.google.com/specimen/Poppins?query=Poppins)
+
+Colores de marca:
+
+1. Azul claro: #007BFF
+2. Morado oscuro: #6610F2
+3. Morado claro: #6F42C1
+4. Rosado: #E83E8C
+5. Rojo: #DC3545
+6. Naranja: #FD7E14
+7. Amarillo: #FFC107
+8. Verde Oscuro: #28A745
+9. Verde Claro: #20C997
+10. Azul Aguamarina: #17A2B8
+11. Negro: #404040
+12. Blanco: #FCFCFC
