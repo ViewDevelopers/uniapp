@@ -11,7 +11,7 @@
 ### General Info
 ***
 Uniapp is an administrative management application for residential units, it allows to centralize all the administration of residential units regardless of the number of units, in addition to facilitating the administrative control of the unit.
-Aurapp allows administrators to reduce the rate of human error by providing a simple and intuitive experience for the management of the unit they are in charge of.
+Uniapp allows administrators to reduce the rate of human error by providing a simple and intuitive experience for the management of the unit they are in charge of.
 and intuitive experience for the management of the unit in charge.
 
 ### Residential Units

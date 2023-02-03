@@ -10,8 +10,8 @@
 
 ### Informacion General
 ***
-Aurapp es una aplicación de gestión administrativa para unidades residenciales, permite centralizar toda la administración de unidades residenciales sin importar
-su cantidad, además de facilitar el control administrativo de la unidad, Aurapp permite a los administradores reducir el indice de error humano brindando una experiencia
+Uniapp es una aplicación de gestión administrativa para unidades residenciales, permite centralizar toda la administración de unidades residenciales sin importar
+su cantidad, además de facilitar el control administrativo de la unidad, Uniapp permite a los administradores reducir el indice de error humano brindando una experiencia
 sencilla e intuitiva para la gestión de su unidad a cargo.
 
 ### Unidades Residenciales
@@ -48,7 +48,7 @@ Este proyecto a sido desarrollado por:
 ***
 Preguntas frecuentes:
 1. **¿Se puede usar para conjuntos residenciales de torres?**
-	* Si, Aurapp puede gestionar cualquier tipo de unidad residencial. 
+	* Si, Uniapp puede gestionar cualquier tipo de unidad residencial. 
 
 ## Agradecimientos
 ***
