@@ -1,4 +1,4 @@
-# Welcome to Aurapp
+# Welcome to Uniapp
 
 ## Table of Contents
 1. [General Info](#general-info)
@@ -10,7 +10,7 @@
 
 ### General Info
 ***
-Aurapp is an administrative management application for residential units, it allows to centralize all the administration of residential units regardless of the number of units, in addition to facilitating the administrative control of the unit.
+Uniapp is an administrative management application for residential units, it allows to centralize all the administration of residential units regardless of the number of units, in addition to facilitating the administrative control of the unit.
 Aurapp allows administrators to reduce the rate of human error by providing a simple and intuitive experience for the management of the unit they are in charge of.
 and intuitive experience for the management of the unit in charge.
 
@@ -48,7 +48,7 @@ This project was developed by:
 ***
 Frequently Asked Questions (FAQs):
 1. **Can it be used for manage residential tower blocks?**
-	* Yes, Aurapp can manage any type of residential unit. 
+	* Yes, Uniapp can manage any type of residential unit. 
 
 ## Recognitions
 ***

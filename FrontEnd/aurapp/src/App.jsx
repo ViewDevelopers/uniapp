@@ -7,7 +7,7 @@ function App() {
     <section>
       <div>
         <div className="text-blue-700 text-5xl text-center font-bold underline">
-          <h1>Bienvenidos a Aurapp</h1>
+          <h1>Bienvenidos a Uniapp</h1>
         </div>
       </div>
     </section>

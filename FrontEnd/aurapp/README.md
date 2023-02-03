@@ -1,4 +1,4 @@
-# Bienvenidos a Aurapp
+# Bienvenidos a Uniapp
 
 ## Tabla de contenidos
 1. [Informacion General](#informacion-general)
