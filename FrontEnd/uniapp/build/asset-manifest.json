@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.5f6863ab.css",
-    "main.js": "/static/js/main.cbbd71f9.js",
-    "static/media/boomslag-black.png": "/static/media/boomslag-black.27e2b30710dda10e3cd2.png",
+    "main.css": "/static/css/main.7a718479.css",
+    "main.js": "/static/js/main.b3fc5be8.js",
     "static/media/loading-dots.gif": "/static/media/loading-dots.459cb7f164c08cfe316c.gif",
+    "static/media/fondo.png": "/static/media/fondo.dc69294dd6769f73a2d0.png",
+    "static/media/LOGO_APP_2.webp": "/static/media/LOGO_APP_2.97a4c685625913cbe9c3.webp",
+    "static/media/imagotipo-aurapp.svg": "/static/media/imagotipo-aurapp.1890ef9ec80b06e7c15b169a2e8cd141.svg",
     "index.html": "/index.html",
-    "main.5f6863ab.css.map": "/static/css/main.5f6863ab.css.map",
-    "main.cbbd71f9.js.map": "/static/js/main.cbbd71f9.js.map"
+    "main.7a718479.css.map": "/static/css/main.7a718479.css.map",
+    "main.b3fc5be8.js.map": "/static/js/main.b3fc5be8.js.map"
   },
   "entrypoints": [
-    "static/css/main.5f6863ab.css",
-    "static/js/main.cbbd71f9.js"
+    "static/css/main.7a718479.css",
+    "static/js/main.b3fc5be8.js"
   ]
 }
