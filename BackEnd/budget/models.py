@@ -84,5 +84,5 @@ class Budget(models.Model):
         verbose_name_plural = 'Presupuesto del Año'
     
     def __str__(self):
-        return f'{self.period} {self.mes} {self.concept}'
+        return f'{self.period} {self.mounth} {self.concept}'
 
