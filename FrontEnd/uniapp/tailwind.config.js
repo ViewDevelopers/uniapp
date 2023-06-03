@@ -1,44 +1,20 @@
-/** @type {import('tailwindcss').Config} */
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 module.exports = {
-  content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
-  ],
+  purge: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
+  darkMode: false, // Puedes cambiarlo a 'class' o 'media' según tus necesidades
   theme: {
     extend: {
-      colors:{
-        "blue-button":'#012938'
-      }
-    },
-    boxShadow: {
-      navbar: "0px 10px 8px 0px rgba(3, 3, 4, 0.03), 0 1px 2px -1px rgba(3, 3, 4, 0.03)",
-    },
-    screens: {
-        sm: "640px",
-        // => @media (min-width: 640px) { ... }
-
-        md: "768px",
-        // => @media (min-width: 768px) { ... }
-
-        lg: "1090px",
-        // => @media (min-width: 1024px) { ... }
-
-        xl: "1280px",
-        // => @media (min-width: 1280px) { ... }
-
-        "2xl": "1536px",
-        // => @media (min-width: 1536px) { ... }
-
-        "3xl": "1720px",
-        // => @media (min-width: 1536px) { ... }
-
-        "4xl": "1856px",
-        // => @media (min-width: 1536px) { ... }
+      colors: {
+        blue: "#304BA8",
+        bluelight: "#4f6ccc",
+        orange: "#FD7E14",
+        orangelight: "#c97636",
+      },
+      fontFamily: {
+        sans: ["Montserrat", ...defaultTheme.fontFamily.sans],
+      },
     },
   },
-  plugins: [
-      require("@tailwindcss/forms"),
-      require("@tailwindcss/typography"),
-      require("@tailwindcss/line-clamp"),
-      require("@tailwindcss/aspect-ratio"),
-  ],
-}
+  plugins: [require("@tailwindcss/typography")],
+};
