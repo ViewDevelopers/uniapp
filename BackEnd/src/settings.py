@@ -24,8 +24,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'corsheaders', # Para autenticacion, permite a una pagina web comunicarse con la API
-    'rest_framework', # Para serializar los datos
+    'corsheaders',                  # Para autenticacion, permite a una pagina web comunicarse con la API
+    'rest_framework',               # Para serializar los datos
     'djoser',
     'social_django',
     'rest_framework_simplejwt',
